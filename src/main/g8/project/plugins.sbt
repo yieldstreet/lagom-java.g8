@@ -1,5 +1,2 @@
-// The Lagom plugin
-addSbtPlugin("com.lightbend.lagom" % "lagom-sbt-plugin" % "$lagom_version$")
-
-// Needed for importing the project into Eclipse
-addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.1.0")
+// The YieldStreet Lagom plugin
+addSbtPlugin("yieldstreet" % "yieldstreet-lagom-sbt-plugin" % "$core_sbt_plugin_version$")
