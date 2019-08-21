@@ -2,3 +2,6 @@
 -J-Xmx2048M
 -J-Xss2M
 -J-XX:MaxMetaspaceSize=1024M
+-Dsbt.gigahorse=false
+-Dsbt.override.build.repos=true
+-Dsbt.repository.config=./.sbtrepositories
